@@ -10,7 +10,7 @@ class PreferredSizedWidgetScreen extends StatelessWidget {
         preferredSize:
             const Size.fromHeight(80), // height from bottom of status bar
         child: Container(
-          height: 80, // height from top of status bar
+          height: 120, // height from top of status bar
           decoration: const BoxDecoration(
               gradient: LinearGradient(colors: <Color>[
             Colors.redAccent,

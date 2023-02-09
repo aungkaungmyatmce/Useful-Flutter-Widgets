@@ -9,6 +9,7 @@ class SnackBarWidget extends StatelessWidget {
       child: ElevatedButton(
         child: Text('Show Snackbar'),
         onPressed: () {
+          ScaffoldMessenger.of(context).hideCurrentSnackBar();
           ScaffoldMessenger.of(context).showSnackBar(SnackBar(
             content: Text('FLutter Snackbar'),
             action: SnackBarAction(label: 'Undo', onPressed: () {}),

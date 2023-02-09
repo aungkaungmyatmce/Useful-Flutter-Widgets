@@ -10,10 +10,11 @@ class ModelBottomSheetWidget extends StatelessWidget {
         child: Text('Model Bottom Sheet'),
         onPressed: () {
           showModalBottomSheet(
+            isScrollControlled: true,
             context: context,
             builder: (context) {
               return SizedBox(
-                height: 400,
+                height: 600,
                 child: Center(
                   child: ElevatedButton(
                     child: Text('Close'),

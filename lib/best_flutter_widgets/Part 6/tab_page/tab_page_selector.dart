@@ -41,6 +41,8 @@ class _TabPageSelectorWidgetState extends State<TabPageSelectorWidget>
           Positioned(
               bottom: 40,
               child: TabPageSelector(
+                color: Colors.red,
+                selectedColor: Colors.green,
                 controller: _controller,
               ))
         ],

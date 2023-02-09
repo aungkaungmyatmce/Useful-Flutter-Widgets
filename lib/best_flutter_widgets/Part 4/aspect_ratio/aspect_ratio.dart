@@ -13,7 +13,12 @@ class AspectRatioWidget extends StatelessWidget {
       child: AspectRatio(
         aspectRatio: 16 / 9,
         child: Container(
-          color: Colors.blue,
+          decoration: BoxDecoration(
+              gradient: RadialGradient(colors: [
+            Colors.deepOrange,
+            Colors.yellow,
+          ])),
+          //color: Colors.blue,
         ),
       ),
     );

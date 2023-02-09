@@ -27,6 +27,7 @@ class _IndexStackWidgetState extends State<IndexStackWidget> {
                   child: Text('0')),
               ElevatedButton(
                   onPressed: () {
+                    print(index);
                     setState(() {
                       index = 1;
                     });
@@ -42,13 +43,28 @@ class _IndexStackWidgetState extends State<IndexStackWidget> {
             ],
           ),
           IndexedStack(
+            index: index,
             children: [
-              Center(child: Image.network('https://picsum.photos/200/300')),
-              Center(
-                  child: Image.network(
-                'https://picsum.photos/200/300',
-              )),
-              Center(child: Image.network('https://picsum.photos/200/300')),
+              Container(
+                width: 300,
+                height: 300,
+                color: Colors.red,
+              ),
+              Container(
+                width: 300,
+                height: 300,
+                color: Colors.green,
+              ),
+              Container(
+                width: 300,
+                height: 300,
+                color: Colors.blue,
+              ),
+              // Center(
+              //     child: Image.network(
+              //   'https://picsum.photos/200/300',
+              // )),
+              // Center(child: Image.network('https://picsum.photos/200/300')),
             ],
           )
         ],

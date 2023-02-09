@@ -6,6 +6,10 @@ class DraggableScrollableWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DraggableScrollableSheet(
+      initialChildSize: 0.4,
+      minChildSize: 0.2,
+      maxChildSize: 0.75,
+      //expand: false,
       builder: (context, scrollController) => Container(
         color: Colors.orangeAccent,
         child: ListView.builder(
