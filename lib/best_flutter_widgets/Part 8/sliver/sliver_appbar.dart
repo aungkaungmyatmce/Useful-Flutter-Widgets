@@ -15,9 +15,9 @@ class _SliverAppbarWidgetState extends State<SliverAppbarWidget> {
         slivers: [
           SliverAppBar(
             pinned:
-                true, // that means when you scroll, you'll see an appbar on the top
+                true, // it means that when you scroll, you'll see an appbar on the top
             floating:
-                true, // this means as soon as you start scrolling, you'll see appbar coming back
+                true, // it means as soon as you start scrolling, you'll see appbar coming back
             expandedHeight: 180,
             flexibleSpace: FlexibleSpaceBar(
               title: Text('Flutter sliver'),

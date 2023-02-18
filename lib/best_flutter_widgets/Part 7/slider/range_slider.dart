@@ -8,7 +8,7 @@ class RangeSliderWidget extends StatefulWidget {
 }
 
 class _RangeSliderWidgetState extends State<RangeSliderWidget> {
-  RangeValues values = RangeValues(0, 10);
+  RangeValues values = RangeValues(0, 50);
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,7 @@ class _RangeSliderWidgetState extends State<RangeSliderWidget> {
         values: values,
         divisions: 10,
         min: 0,
-        max: 10,
+        max: 50,
         labels: labels,
         onChanged: (newValues) {
           setState(() {

@@ -56,7 +56,7 @@ class _StepperWidgetState extends State<StepperWidget> {
         }
       },
       currentStep: _currentStep,
-      type: StepperType.horizontal,
+      //type: StepperType.horizontal,
     ));
   }
 }
