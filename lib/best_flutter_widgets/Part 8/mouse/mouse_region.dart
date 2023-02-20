@@ -39,7 +39,7 @@ class _MouseRegionWidgetState extends State<MouseRegionWidget> {
             mainAxisSize: MainAxisSize.min,
             children: [
               Text(
-                'Enters: $exitCount',
+                'Enters: $enterCount',
                 style: TextStyle(
                   fontSize: 40,
                 ),
