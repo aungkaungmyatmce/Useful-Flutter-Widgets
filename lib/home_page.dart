@@ -77,6 +77,7 @@ import 'best_flutter_widgets/Part 8/sliver/sliver_appbar.dart';
 import 'best_flutter_widgets/Part 8/sliver/sliver_grid.dart';
 import 'best_flutter_widgets/Part 8/sliver/sliver_tobox_adapter.dart';
 import 'best_flutter_widgets/Part 8/touch/touch_listener.dart';
+import 'best_flutter_widgets/Part 9/cliprrect/cliprrect.dart';
 import 'best_flutter_widgets/Part 9/tooltip/tooltip.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -97,7 +98,7 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
-      body: CheckboxGroupWidget(),
+      body: ClipRRectWidget(),
     );
   }
 }
