@@ -11,6 +11,9 @@ class TabBarWidget extends StatelessWidget {
           appBar: AppBar(
             title: Text('Tab Bar'),
             bottom: TabBar(
+              indicator: BoxDecoration(
+                  borderRadius: BorderRadius.circular(15),
+                  color: Colors.redAccent),
               tabs: [
                 Tab(
                   child: Icon(Icons.home),
