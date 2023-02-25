@@ -3,6 +3,7 @@ import 'package:best_flutter_widgets/best_flutter_widgets/Part%201/banner_widget
 import 'package:best_flutter_widgets/best_flutter_widgets/Part%201/bottom_sheet/model_bottom_sheet.dart';
 import 'package:best_flutter_widgets/best_flutter_widgets/Part%201/draggable/facebook_like_view_sheet.dart';
 import 'package:best_flutter_widgets/best_flutter_widgets/Part%202/circle_avatar/circle_avatar_widget.dart';
+import 'package:best_flutter_widgets/best_flutter_widgets/Part%206/tab_page/tab_bar_shapes.dart';
 import 'package:best_flutter_widgets/testing_widget.dart';
 import 'package:flutter/material.dart';
 import 'best_flutter_widgets/Part 1/banner_widgets/banner.dart';
@@ -79,6 +80,7 @@ import 'best_flutter_widgets/Part 8/sliver/sliver_tobox_adapter.dart';
 import 'best_flutter_widgets/Part 8/touch/touch_listener.dart';
 import 'best_flutter_widgets/Part 9/button_styling/elevated_button_styling_widget.dart';
 import 'best_flutter_widgets/Part 9/cliprrect/cliprrect.dart';
+import 'best_flutter_widgets/Part 9/swiper/swiper_widget.dart';
 import 'best_flutter_widgets/Part 9/tooltip/tooltip.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -99,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
-      body: TabBarWidget(),
+      body: CheckboxGroupWidget(),
     );
   }
 }
