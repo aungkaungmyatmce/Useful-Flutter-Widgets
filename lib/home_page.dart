@@ -50,7 +50,7 @@ import 'best_flutter_widgets/Part 5/image/fadein_image.dart';
 import 'best_flutter_widgets/Part 5/pointer/ignore_pointer.dart';
 import 'best_flutter_widgets/Part 5/stack/index_stack.dart';
 import 'best_flutter_widgets/Part 6/indicatior/linear_progress_indicator.dart';
-import 'best_flutter_widgets/Part 6/list_tile/checkbox_group.dart';
+import 'best_flutter_widgets/Part 6/list_tile/group_buttons.dart';
 import 'best_flutter_widgets/Part 6/list_tile/radio_list_tile.dart';
 import 'best_flutter_widgets/Part 6/indicatior/refresh_indicator.dart';
 import 'best_flutter_widgets/Part 6/list_tile/switch_list_tile.dart';
@@ -101,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
-      body: CheckboxGroupWidget(),
+      body: GroupButtonsWidget(),
     );
   }
 }

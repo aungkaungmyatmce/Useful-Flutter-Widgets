@@ -25,10 +25,12 @@ class _AnimatedCrossFadeWidgetState extends State<AnimatedCrossFadeWidget> {
                 _bool = !_bool;
               });
             },
-            child: Text('Switch')),
+            child: Text(
+              'Switch',
+            )),
         AnimatedCrossFade(
           firstChild: Text('Aung Kaung Myat'),
-          secondChild: Text('Hello'),
+          secondChild: Text('Zar'),
           crossFadeState:
               _bool ? CrossFadeState.showFirst : CrossFadeState.showSecond,
           duration: Duration(seconds: 1),

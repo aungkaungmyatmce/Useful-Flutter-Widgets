@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:group_button/group_button.dart';
 
-class CheckboxGroupWidget extends StatefulWidget {
-  const CheckboxGroupWidget({Key? key}) : super(key: key);
+class GroupButtonsWidget extends StatefulWidget {
+  const GroupButtonsWidget({Key? key}) : super(key: key);
 
   @override
-  State<CheckboxGroupWidget> createState() => _CheckboxGroupWidgetState();
+  State<GroupButtonsWidget> createState() => _GroupButtonsWidgetState();
 }
 
-class _CheckboxGroupWidgetState extends State<CheckboxGroupWidget> {
+class _GroupButtonsWidgetState extends State<GroupButtonsWidget> {
   final controller = GroupButtonController();
   @override
   Widget build(BuildContext context) {
